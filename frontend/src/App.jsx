@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
 import { FiEdit2, FiTrash2, FiPlus, FiEye } from 'react-icons/fi';
 
-const API_URL = 'http://localhost:3000/api';
+const API_URL = 'https://taskflow-takehome.onrender.com/api';
 
 export default function App() {
   const [board, setBoard] = useState(null);
